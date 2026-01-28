@@ -1,6 +1,10 @@
 import os
 import json
 
+# Add project root to Python path
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(PROJECT_ROOT)
+
 from src.ingestion.pdf_loader import load_all_policies
 from src.utils.text_cleaning import clean_text
 from src.ingestion.chunker import chunk_text
