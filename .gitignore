@@ -1,0 +1,17 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+
+# Data (keep raw small samples only)
+data/processed/
+data/raw/policies/*.pdf
+data/raw/claims_tabular/*.csv
+data/raw/claims_tabular/*.xlsx
+
+# Vector DB / embeddings
+*.faiss
+*.pkl
+
+# Notebooks
+.ipynb_checkpoints/
