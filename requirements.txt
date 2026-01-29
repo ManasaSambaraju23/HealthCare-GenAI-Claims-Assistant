@@ -1,1 +1,6 @@
+PyPDF2
+pandas
+openai
+faiss-cpu
+tiktoken
 
