@@ -1,48 +1,56 @@
-Healthcare GenAI Claims Assistant (V1)
+# 🏥 Healthcare GenAI Claims Assistant (V1)
 
-A GenAI-powered healthcare claims decision-support system built using Retrieval-Augmented Generation (RAG) to analyze insurance policy documents and produce evidence-grounded coverage decisions.
+A **Generative AI–powered healthcare claims decision-support system** built using **Retrieval-Augmented Generation (RAG)** to analyze insurance policy documents and produce **evidence-grounded, auditable coverage decisions**.
 
-Designed with a focus on AI reliability, explainability, and quality validation in regulated healthcare and insurance domains.
+🔍 Designed with a strong focus on **AI reliability, explainability, and quality validation** for **regulated healthcare & insurance domains**.
 
-Business Problem
+---
 
-Healthcare insurance claims processing involves interpreting complex policy wording across insurers, exclusions, waiting periods, and benefit limits. Manual review is slow, inconsistent, and prone to interpretation errors.
+## 🎯 Business Problem
 
-This project demonstrates how Generative AI + semantic retrieval can support claim analysis while maintaining conservative, auditable decision logic.
+Healthcare insurance claims processing requires interpreting **complex policy language** across:
+- Multiple insurers  
+- Exclusions & waiting periods  
+- Benefit limits & sub-limits  
 
-Key Capabilities (V1)
+📉 Manual review is **slow, inconsistent**, and prone to **interpretation errors**.
 
-Policy document ingestion from public healthcare insurance PDFs
+✅ This project demonstrates how **Generative AI + semantic retrieval** can assist claim analysis while maintaining **conservative, traceable, and auditable decision logic**.
 
-Text preprocessing, normalization, and semantic chunking
+---
 
-OpenAI embedding generation with batching for scalability
+## 🚀 Key Capabilities (V1)
 
-FAISS-based vector search for semantic policy retrieval
+### 📄 Policy Understanding
+- Ingests **public healthcare insurance policy PDFs**
+- Text preprocessing, normalization & **semantic chunking**
 
-Top-K retrieval of relevant policy clauses per claim
+### 🧠 Semantic Retrieval
+- **OpenAI embeddings** with batching for scalability
+- **FAISS-based vector search**
+- **Top-K retrieval** of relevant policy clauses per claim
 
-LLM-based claim reasoning constrained strictly to retrieved evidence
+### 🤖 Evidence-Grounded Reasoning
+- LLM reasoning **strictly constrained to retrieved evidence**
+- Prevents hallucinated policy interpretations
 
-Structured output generation:
+### 📊 Structured Outputs
+Each claim produces:
+- **Coverage decision**
+- **Conditions / exclusions**
+- **Evidence sources**
+- **Confidence level**
 
-Coverage decision
+### 🔁 Multi-Scenario Handling
+- ✅ Covered  
+- ⚠️ Covered with conditions  
+- ❌ Not covered / exclusions  
 
-Conditions / exclusions
+---
 
-Evidence sources
+## 🧾 Example Output
 
-Confidence level
-
-Multi-scenario validation:
-
-Covered
-
-Covered with conditions
-
-Not covered / exclusions
-
-Example Output
+```json ```
 {
   "coverage_decision": "Covered with conditions",
   "conditions_or_exclusions": [
@@ -55,98 +63,99 @@ Example Output
   "confidence": "High"
 }
 
-Architecture Overview
+**🏗️ Architecture Overview**
 
 Policy PDFs
-→ Text Extraction
-→ Chunking
-→ OpenAI Embeddings (batched)
-→ FAISS Vector Index
-→ Semantic Retrieval (Top-K)
-→ LLM-based Claim Reasoning
-→ Structured Coverage Decision + Evidence
-
-Synthetic claims are used to simulate real-world usage without any sensitive data.
-
-Tech Stack
-
-Python
-
-OpenAI Embeddings & Chat Completions
-
-FAISS (Vector Database)
-
-Pandas
-
-PyPDF2
-
-Core RAG logic implemented manually (no LangChain in V1) for transparency and control.
-
-Data Governance & Compliance
-
-Uses only publicly available policy documents
-
-All claims are synthetically generated
-
-No real patient, provider, or claim data is used
-
-Designed for learning, experimentation, and portfolio demonstration
-
-Project Status
-Completed (V1)
-
-End-to-end RAG pipeline for healthcare claim analysis
-
-Evidence-grounded and conservative LLM reasoning
-
-Insurer-aware behavior via semantic retrieval
-
-Robust handling of positive, conditional, and negative scenarios
-
-2️⃣ QA / ML TESTING ADD-ON SECTION (V1.1)
+   ↓
+Text Extraction
+   ↓
+Chunking
+   ↓
+OpenAI Embeddings (Batched)
+   ↓
+FAISS Vector Index
+   ↓
+Semantic Retrieval (Top-K)
+   ↓
+LLM-based Claim Reasoning
+   ↓
+Structured Coverage Decision + Evidence
 
 
+**🧪 Synthetic claims are used to simulate real-world usage — no sensitive data involved.**
 
-AI / ML Testing & Evaluation (Planned – V1.1)
+**🛠️ Tech Stack**
 
-The next iteration of this project will focus on AI quality assurance and ML testing, leveraging traditional QA principles adapted for probabilistic GenAI systems.
+🐍 Python
 
-Planned Testing Areas
-1. Prompt Regression Testing
+🔗 OpenAI Embeddings & Chat Completions
 
-Evaluate multiple prompt variants against the same claim set
+📚 FAISS (Vector Database)
 
-Detect changes in coverage decisions due to prompt modifications
+🧮 Pandas
+
+📄 PyPDF2
+
+⚙️ Core RAG logic is implemented manually (no LangChain in V1) to ensure transparency, control, and debuggability.
+
+**🔐 Data Governance & Compliance**
+
+✅ Uses only publicly available policy documents
+
+🧪 All claims are synthetically generated
+
+🚫 No real patient, provider, or claim data
+
+🎓 Built for learning, experimentation & portfolio demonstration
+
+***📌 Project Status — Completed (V1)***
+
+✔️ End-to-end RAG pipeline for healthcare claim analysis
+✔️ Evidence-grounded & conservative LLM reasoning
+✔️ Insurer-aware behavior via semantic retrieval
+✔️ Robust handling of positive, conditional & negative scenarios
+
+**🧪 QA / ML Testing Add-On (V1.1)**
+**🧠 AI / ML Testing & Evaluation (Planned)**
+
+The next iteration focuses on AI Quality Assurance and ML Testing, adapting traditional QA principles to probabilistic GenAI systems.
+
+🔍 Planned Testing Areas
+🔁 Prompt Regression Testing
+
+Compare multiple prompt variants on the same claim set
+
+Detect coverage decision drift due to prompt changes
 
 Ensure backward compatibility of decision logic
 
-2. Batch Evaluation Using Synthetic Claims
+📦 Batch Evaluation with Synthetic Claims
 
-Run large batches of synthetic claims through the pipeline
+Run large batches of synthetic claims
 
-Analyze distribution of outcomes:
+Analyze outcome distribution:
 
-Covered
+✅ Covered
 
-Covered with conditions
+⚠️ Covered with conditions
 
-Not covered
+❌ Not covered
 
-Insufficient evidence
+❓ Insufficient evidence
 
-Identify bias, over-rejection, or over-approval patterns
+Identify bias, over-approval, or over-rejection trends
 
-3. Negative & Edge Case Testing
+⚠️ Negative & Edge Case Testing
 
-Claims with missing diagnosis or insurer
+Missing diagnosis or insurer
 
-Ambiguous or conflicting claim inputs
+Ambiguous or conflicting inputs
 
-Non-medical and out-of-scope queries
+Non-medical / out-of-scope queries
 
-Validate safe fallback behavior and confidence degradation
+Validate safe fallback behavior & confidence degradation
 
-4. Consistency & Robustness Testing
+🔄 Consistency & Robustness Testing
 
 Re-run identical claims multiple times
 
@@ -154,11 +163,25 @@ Validate decision stability under low-temperature settings
 
 Detect non-deterministic or unstable responses
 
-5. Hallucination & Evidence Leakage Checks
+🚨 Hallucination & Evidence Leakage Checks
 
 Ensure responses rely only on retrieved policy clauses
 
-Validate that unsupported claims return “Not covered” or “Insufficient evidence”
+Enforce:
 
-This phase explicitly demonstrates ML testing, AI validation, and GenAI quality engineering skills.
+❌ Not covered
 
+❓ Insufficient evidence
+when support is missing
+
+**🧩 Why This Matters**
+
+✨ This phase explicitly demonstrates:
+
+ML testing
+
+AI validation
+
+GenAI quality engineering
+
+Responsible AI practices for regulated domains
