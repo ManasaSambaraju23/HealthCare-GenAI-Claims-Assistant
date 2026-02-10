@@ -1,0 +1,101 @@
+claim_id,insurer,coverage_decision,confidence,evidence_sources
+synthetic_claim_0001,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,Saral Suraksha Bima Policy.pdf|UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0002,Ayushman Mithra,ERROR,,
+synthetic_claim_0003,HDFC ERGO,Covered with conditions,High,HDFC Ergo General Insurance.pdf
+synthetic_claim_0004,Alliance Health Insurance,ERROR,,
+synthetic_claim_0005,Ayushman Mithra,Covered with conditions,Medium,HDFC Ergo General Insurance.pdf|Emedlife Parents Insurance Policy.pdf
+synthetic_claim_0006,Alliance Health Insurance,ERROR,,
+synthetic_claim_0007,Alliance Health Insurance,ERROR,,
+synthetic_claim_0008,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf|Saral Suraksha Bima Policy.pdf
+synthetic_claim_0009,Ayushman Mithra,ERROR,,
+synthetic_claim_0010,A Plus Health Insurance,Covered with conditions,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0011,Ayushman Mithra,ERROR,,
+synthetic_claim_0012,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Not covered,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0013,A Plus Health Insurance,Covered with conditions,High,Family Shield Policy ICICI Lombard.pdf
+synthetic_claim_0014,ICICI Lombard,Covered with conditions,High,Family Shield Policy ICICI Lombard.pdf
+synthetic_claim_0015,HDFC ERGO,ERROR,,
+synthetic_claim_0016,HDFC ERGO,ERROR,,
+synthetic_claim_0017,ICICI Lombard,ERROR,,
+synthetic_claim_0018,A Plus Health Insurance,ERROR,,
+synthetic_claim_0019,Ayushman Mithra,ERROR,,
+synthetic_claim_0020,SBI General Insurance,ERROR,,
+synthetic_claim_0021,A Plus Health Insurance,Covered with conditions,High,ICICI Lombard.pdf
+synthetic_claim_0022,Ayushman Mithra,ERROR,,
+synthetic_claim_0023,Ayushman Mithra,Covered with conditions,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0024,SBI General Insurance,Covered with conditions,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0025,A Plus Health Insurance,ERROR,,
+synthetic_claim_0026,Alliance Health Insurance,ERROR,,
+synthetic_claim_0027,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,Family Shield Policy ICICI Lombard.pdf|ICICI Lombard.pdf
+synthetic_claim_0028,HDFC ERGO,Covered with conditions,High,HDFC Ergo General Insurance.pdf
+synthetic_claim_0029,Ayushman Mithra,ERROR,,
+synthetic_claim_0030,SBI General Insurance,ERROR,,
+synthetic_claim_0031,Ayushman Mithra,Covered with conditions,Medium,HDFC Ergo General Insurance.pdf|Emedlife Parents Insurance Policy.pdf
+synthetic_claim_0032,ICICI Lombard,Covered with conditions,High,ICICI Lombard.pdf
+synthetic_claim_0033,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,Saral Suraksha Bima Policy.pdf
+synthetic_claim_0034,ICICI Lombard,ERROR,,
+synthetic_claim_0035,ICICI Lombard,Covered with conditions,High,ICICI Lombard.pdf
+synthetic_claim_0036,Ayushman Mithra,ERROR,,
+synthetic_claim_0037,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,
+synthetic_claim_0038,SBI General Insurance,ERROR,,
+synthetic_claim_0039,HDFC ERGO,ERROR,,
+synthetic_claim_0040,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0041,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,
+synthetic_claim_0042,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf|Saral Suraksha Bima Policy.pdf
+synthetic_claim_0043,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,Saral Suraksha Bima Policy.pdf|UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0044,HDFC ERGO,Covered with conditions,High,HDFC Ergo General Insurance.pdf
+synthetic_claim_0045,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,
+synthetic_claim_0046,ICICI Lombard,Covered with conditions,High,Saral Suraksha Bima Policy.pdf|Hospifund Insurance Policy ICICI.pdf|ICICI Lombard.pdf|Family Shield Policy ICICI Lombard.pdf
+synthetic_claim_0047,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Not covered,High,Family Shield Policy ICICI Lombard.pdf|HDFC Ergo General Insurance.pdf|Saral Suraksha Bima Policy.pdf|UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0048,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,
+synthetic_claim_0049,A Plus Health Insurance,Covered with conditions,High,A Plus Health Insurance.pdf|UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0050,HDFC ERGO,Covered with conditions,High,HDFC Ergo General Insurance.pdf
+synthetic_claim_0051,ICICI Lombard,Covered with conditions,High,ICICI Lombard.pdf|Arogya Sanjeevani Policy ICICI Lombard.pdf|Family Shield Policy ICICI Lombard.pdf
+synthetic_claim_0052,Ayushman Mithra,Covered with conditions,High,EMEDLIFE Parents Insurance Policy.pdf|UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0053,SBI General Insurance,Covered with conditions,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0054,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,ICICI Lombard.pdf
+synthetic_claim_0055,Ayushman Mithra,Covered with conditions,Medium,HDFC Ergo General Insurance.pdf|Family Shield Policy ICICI Lombard.pdf
+synthetic_claim_0056,HDFC ERGO,Covered with conditions,High,HDFC Ergo General Insurance.pdf
+synthetic_claim_0057,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,ICICI Lombard.pdf|Arogya Sanjeevani Policy ICICI Lombard.pdf|UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0058,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,
+synthetic_claim_0059,SBI General Insurance,ERROR,,
+synthetic_claim_0060,HDFC ERGO,ERROR,,
+synthetic_claim_0061,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,
+synthetic_claim_0062,Alliance Health Insurance,Covered with conditions,High,ROYAL SUNDARAM Multiplier Health Insurance Policy.pdf
+synthetic_claim_0063,Ayushman Mithra,ERROR,,
+synthetic_claim_0064,Alliance Health Insurance,Covered with conditions,Medium,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf|ROYAL SUNDARAM Multiplier Health Insurance Policy.pdf
+synthetic_claim_0065,Ayushman Mithra,ERROR,,
+synthetic_claim_0066,HDFC ERGO,Covered with conditions,High,HDFC Ergo General Insurance.pdf
+synthetic_claim_0067,Ayushman Mithra,ERROR,,
+synthetic_claim_0068,A Plus Health Insurance,ERROR,,
+synthetic_claim_0069,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0070,SBI General Insurance,ERROR,,
+synthetic_claim_0071,Ayushman Mithra,ERROR,,
+synthetic_claim_0072,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,
+synthetic_claim_0073,HDFC ERGO,ERROR,,
+synthetic_claim_0074,Alliance Health Insurance,Not covered,High,Allaince Health Insurance.pdf
+synthetic_claim_0075,HDFC ERGO,ERROR,,
+synthetic_claim_0076,Ayushman Mithra,Covered with conditions,Medium,Family Shield Policy ICICI Lombard.pdf|HDFC Ergo General Insurance.pdf
+synthetic_claim_0077,Ayushman Mithra,Covered with conditions,High,Arogya Sanjeevani Policy ICICI Lombard.pdf|UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0078,HDFC ERGO,Covered with conditions,High,HDFC Ergo General Insurance.pdf
+synthetic_claim_0079,ICICI Lombard,Covered with conditions,High,ICICI Lombard.pdf
+synthetic_claim_0080,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Not covered,High,HDFC Ergo General Insurance.pdf|Family Shield Policy ICICI Lombard.pdf|UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0081,Alliance Health Insurance,Covered with conditions,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0082,Ayushman Mithra,ERROR,,
+synthetic_claim_0083,Alliance Health Insurance,Covered with conditions,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0084,Ayushman Mithra,ERROR,,
+synthetic_claim_0085,Ayushman Mithra,ERROR,,
+synthetic_claim_0086,Alliance Health Insurance,Not covered,High,Alliance Health Insurance.pdf
+synthetic_claim_0087,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,
+synthetic_claim_0088,Alliance Health Insurance,ERROR,,
+synthetic_claim_0089,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,Medium,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf|Saral Suraksha Bima Policy.pdf
+synthetic_claim_0090,Ayushman Mithra,ERROR,,
+synthetic_claim_0091,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,
+synthetic_claim_0092,A Plus Health Insurance,Covered with conditions,High,A Plus Health Insurance.pdf|UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
+synthetic_claim_0093,ICICI Lombard,Covered with conditions,High,Arogya Sanjeevani Policy ICICI Lombard.pdf|Saral Suraksha Bima Policy.pdf
+synthetic_claim_0094,HDFC ERGO,ERROR,,
+synthetic_claim_0095,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf|Saral Suraksha Bima Policy.pdf
+synthetic_claim_0096,SBI General Insurance,Covered with conditions,Medium,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf|ROYAL SUNDARAM Multiplier Health Insurance Policy.pdf
+synthetic_claim_0097,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,
+synthetic_claim_0098,Ayushman Mithra,ERROR,,
+synthetic_claim_0099,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,Medium,Saral Suraksha Bima Policy.pdf|Family Shield Policy ICICI Lombard.pdf
+synthetic_claim_0100,SBI General Insurance,Covered with conditions,High,UNIVERSAL SOMPO Individual Health Insurance Policy.pdf
