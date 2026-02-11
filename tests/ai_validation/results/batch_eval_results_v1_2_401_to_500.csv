@@ -1,770 +1,101 @@
 claim_id,insurer,coverage_decision,confidence,error_type,raw_llm_output
 synthetic_claim_0401,A Plus Health Insurance,Covered with conditions,High,,
-synthetic_claim_0402,Alliance Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [
-    ""Cataract treatment is not covered under the Alliance Health Insurance policy as it specifically excludes treatment for eyesight unless covered under Benefit #73.""
-  ],
-  ""evidence_sources"": [
-    ""Allaince Health Insurance.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0403,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Waiting period of 1 year for Hernia treatment""
-  ],
-  ""evidence_sources"": [
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0404,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""A waiting period of 1 year applies for Hernia treatment.""
-  ],
-  ""evidence_sources"": [
-    ""Emedlife Parents Insurance Policy.pdf"",
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
-synthetic_claim_0405,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim is for a non-network hospital which may require additional review."",
-    ""Cataract treatment is subject to a maximum liability of Rs. 20,000 per eye for plans with Sum Insured up to ₹5Lacs.""
-  ],
-  ""evidence_sources"": [
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0402,Alliance Health Insurance,Not covered,High,,
+synthetic_claim_0403,Ayushman Mithra,Covered with conditions,High,,
+synthetic_claim_0404,Ayushman Mithra,Covered with conditions,High,,
+synthetic_claim_0405,Ayushman Mithra,Covered with conditions,High,,
 synthetic_claim_0406,Ayushman Mithra,Covered with conditions,Medium,,
 synthetic_claim_0407,SBI General Insurance,Covered with conditions,High,,
 synthetic_claim_0408,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
-synthetic_claim_0409,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
-synthetic_claim_0410,Alliance Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection.""
-  ],
-  ""evidence_sources"": [
-    ""Family Shield Policy ICICI Lombard.pdf"",
-    ""HDFC Ergo General Insurance.pdf"",
-    ""Corporate Advantage Super Top Up Policy ICICI.pdf"",
-    ""Saral Suraksha Bima Policy.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0409,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,Medium,,
+synthetic_claim_0410,Alliance Health Insurance,Covered with conditions,Medium,,
 synthetic_claim_0411,SBI General Insurance,Covered with conditions,High,,
-synthetic_claim_0412,A Plus Health Insurance,Covered with conditions,High,,
-synthetic_claim_0413,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Co-Pay 10% Applicable on all claims.""
-  ],
-  ""evidence_sources"": [
-    ""Emedlife Parents Insurance Policy.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0414,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Maximum liability for cataract treatment is subject to a sub-limit of Rs. 40,000 per eye per policy year.""
-  ],
-  ""evidence_sources"": [
-    ""ICICI Lombard.pdf"",
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0412,A Plus Health Insurance,Covered with conditions,Medium,,
+synthetic_claim_0413,Ayushman Mithra,Covered with conditions,High,,
+synthetic_claim_0414,Ayushman Mithra,Covered with conditions,High,,
 synthetic_claim_0415,SBI General Insurance,Covered with conditions,High,,
 synthetic_claim_0416,Ayushman Mithra,Covered with conditions,High,,
-synthetic_claim_0417,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Sub-limit of Rs.20,000/- is applicable per eye per Policy year for Cataract treatment.""
-  ],
-  ""evidence_sources"": [
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf"",
-    ""Saral Suraksha Bima Policy.pdf"",
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
+synthetic_claim_0417,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,Medium,,
 synthetic_claim_0418,HDFC ERGO,Covered with conditions,High,,
-synthetic_claim_0419,A Plus Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [
-    ""Cataract treatment is subject to a maximum liability of Rs. 20,000 per eye for plans with Sum Insured up to ₹5Lacs, and Rs. 1,00,000 per eye for plans above ₹5Lacs."",
-    ""The proposed procedure (Hernia Repair Surgery) is not covered under the provided clauses.""
-  ],
-  ""evidence_sources"": [
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0420,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Waiting period of 1 year for cataract surgery as per Clause 1"",
-    ""Cataract treatment expenses are subject to a limit of Rs.40,000 per eye in one policy year as per Clause 5""
-  ],
-  ""evidence_sources"": [
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf"",
-    ""Reliance Specially Abled Health Insurance.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0421,Alliance Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Claims must be submitted to the Company not later than one (1) month after the completion of the treatment.""
-  ],
-  ""evidence_sources"": [
-    ""Family Shield Policy ICICI Lombard.pdf"",
-    ""Saral Suraksha Bima Policy.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
-synthetic_claim_0422,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [],
-  ""evidence_sources"": [
-    ""HDFC Ergo General Insurance.pdf"",
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf"",
-    ""Reliance Specially Abled Health Insurance.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0419,A Plus Health Insurance,Covered with conditions,Medium,,
+synthetic_claim_0420,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
+synthetic_claim_0421,Alliance Health Insurance,Covered with conditions,Medium,,
+synthetic_claim_0422,Ayushman Mithra,Not covered,High,,
 synthetic_claim_0423,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
 synthetic_claim_0424,Ayushman Mithra,Covered with conditions,High,,
-synthetic_claim_0425,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection.""
-  ],
-  ""evidence_sources"": [
-    ""HDFC Ergo General Insurance.pdf"",
-    ""Emedlife Parents Insurance Policy.pdf"",
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
-synthetic_claim_0426,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection.""
-  ],
-  ""evidence_sources"": [
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0427,Alliance Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [],
-  ""evidence_sources"": [
-    ""Alliance Health Insurance.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0428,HDFC ERGO,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [
-    ""Cataract surgery is not covered under the policy as it falls under the waiting period clause for hospitalization expenses incurred in the first year of operation of the insurance cover.""
-  ],
-  ""evidence_sources"": [
-    ""HDFC Ergo General Insurance.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0425,Ayushman Mithra,Covered with conditions,Medium,,
+synthetic_claim_0426,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Not covered,High,,
+synthetic_claim_0427,Alliance Health Insurance,Not covered,High,,
+synthetic_claim_0428,HDFC ERGO,Not covered,High,,
 synthetic_claim_0429,Ayushman Mithra,Covered with conditions,High,,
-synthetic_claim_0430,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,Medium,,
-synthetic_claim_0431,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Cataract treatment is subject to a sub-limit of Rs. 20,000 per eye for plans with Sum Insured up to ₹5Lacs.""
-  ],
-  ""evidence_sources"": [
-    ""ICICI Lombard.pdf"",
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0430,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
+synthetic_claim_0431,Ayushman Mithra,Not covered,High,,
 synthetic_claim_0432,SBI General Insurance,Covered with conditions,High,,
 synthetic_claim_0433,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
-synthetic_claim_0434,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Co-Pay 10% Applicable on all claims"",
-    ""Waiting period of 1 year for Hernia Repair Surgery""
-  ],
-  ""evidence_sources"": [
-    ""Emedlife Parents Insurance Policy.pdf"",
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
-synthetic_claim_0435,Alliance Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Waiting period of 1 year for Hernia Repair Surgery as per Clause 4""
-  ],
-  ""evidence_sources"": [
-    ""Family Shield Policy ICICI Lombard.pdf"",
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
-synthetic_claim_0436,A Plus Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Maximum liability for cataract treatment is limited to Rs. 20,000 per eye for plans with Sum Insured up to ₹5Lacs."",
-    ""Sub limit of ₹1,00,000 per eye per Policy year will be applicable for Cataract surgery for plans with Sum Insured above ₹5Lacs."",
-    ""Cataract surgery is subject to a waiting period of 1 year from the commencement of the policy.""
-  ],
-  ""evidence_sources"": [
-    ""Family Shield Policy ICICI Lombard.pdf"",
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0437,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [],
-  ""evidence_sources"": [
-    ""Emedlife Parents Insurance Policy.pdf"",
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf"",
-    ""Reliance Specially Abled Health Insurance.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0438,SBI General Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Waiting period of 1 year for cataract surgery as per Clause 3"",
-    ""Maximum limit of Rs.40,000/- per eye for cataract treatment as per Clause 4""
-  ],
-  ""evidence_sources"": [
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf"",
-    ""Reliance Specially Abled Health Insurance.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
-synthetic_claim_0439,SBI General Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Cataract treatment is subject to a limit of 25% of Sum Insured or Rs.40,000/-, whichever is lower, per eye in one policy year.""
-  ],
-  ""evidence_sources"": [
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf"",
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0440,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [],
-  ""evidence_sources"": [
-    ""ICICI Lombard.pdf"",
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0441,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Cataract treatment is subject to a sub-limit of Rs. 20,000 per eye per policy year for plans with Sum Insured up to 5 Lakhs."",
-    ""Cataract treatment is subject to a sub-limit of Rs. 1,00,000 per eye per policy year for plans with Sum Insured above 5 Lakhs.""
-  ],
-  ""evidence_sources"": [
-    ""HDFC Ergo General Insurance.pdf"",
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf"",
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
-synthetic_claim_0442,A Plus Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Maximum liability for cataract treatment is subject to a sub-limit of Rs. 1,00,000 per eye per policy year for plans with Sum Insured above ₹5Lacs.""
-  ],
-  ""evidence_sources"": [
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0434,Ayushman Mithra,Covered with conditions,Medium,,
+synthetic_claim_0435,Alliance Health Insurance,Covered with conditions,Medium,,
+synthetic_claim_0436,A Plus Health Insurance,Covered with conditions,High,,
+synthetic_claim_0437,Ayushman Mithra,Not covered,High,,
+synthetic_claim_0438,SBI General Insurance,Covered with conditions,High,,
+synthetic_claim_0439,SBI General Insurance,Covered with conditions,High,,
+synthetic_claim_0440,Ayushman Mithra,Not covered,High,,
+synthetic_claim_0441,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,Medium,,
+synthetic_claim_0442,A Plus Health Insurance,Covered with conditions,High,,
 synthetic_claim_0443,Ayushman Mithra,Covered with conditions,High,,
-synthetic_claim_0444,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,Medium,,
-synthetic_claim_0445,HDFC ERGO,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [],
-  ""evidence_sources"": [
-    ""HDFC Ergo General Insurance.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0446,HDFC ERGO,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection.""
-  ],
-  ""evidence_sources"": [
-    ""HDFC Ergo General Insurance.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0447,Ayushman Mithra,Covered with conditions,High,,
+synthetic_claim_0444,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
+synthetic_claim_0445,HDFC ERGO,Not covered,High,,
+synthetic_claim_0446,HDFC ERGO,Covered with conditions,High,,
+synthetic_claim_0447,Ayushman Mithra,Covered with conditions,Medium,,
 synthetic_claim_0448,Alliance Health Insurance,Covered with conditions,High,,
-synthetic_claim_0449,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection.""
-  ],
-  ""evidence_sources"": [
-    ""Saral Suraksha Bima Policy.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0450,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Cataract treatment is subject to a sub-limit of Rs. 40,000 per eye per policy year.""
-  ],
-  ""evidence_sources"": [
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0451,SBI General Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Waiting period of 1 year for cataract treatment as per Clause 1""
-  ],
-  ""evidence_sources"": [
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0452,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [],
-  ""evidence_sources"": [
-    ""Reliance Specially Abled Health Insurance.pdf"",
-    ""Family Shield Policy ICICI Lombard.pdf"",
-    ""Emedlife Parents Insurance Policy.pdf"",
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf"",
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0453,Alliance Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Treatment for Cataract surgery is subject to sub-limits based on the policy terms.""
-  ],
-  ""evidence_sources"": [
-    ""Alliance Health Insurance.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
+synthetic_claim_0449,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
+synthetic_claim_0450,Ayushman Mithra,Covered with conditions,High,,
+synthetic_claim_0451,SBI General Insurance,Covered with conditions,High,,
+synthetic_claim_0452,Ayushman Mithra,Covered with conditions,High,,
+synthetic_claim_0453,Alliance Health Insurance,Covered with conditions,Medium,,
 synthetic_claim_0454,Ayushman Mithra,Covered with conditions,High,,
 synthetic_claim_0455,A Plus Health Insurance,Covered with conditions,Medium,,
-synthetic_claim_0456,A Plus Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [
-    ""Joint replacement unless due to accident""
-  ],
-  ""evidence_sources"": [
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0456,A Plus Health Insurance,Covered with conditions,High,,
 synthetic_claim_0457,Alliance Health Insurance,Covered with conditions,Medium,,
 synthetic_claim_0458,ICICI Lombard,Covered with conditions,High,,
 synthetic_claim_0459,Ayushman Mithra,Covered with conditions,High,,
 synthetic_claim_0460,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Not covered,High,,
 synthetic_claim_0461,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
-synthetic_claim_0462,Alliance Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Waiting period of 1 year for Hernia Repair Surgery as per Clause 4.""
-  ],
-  ""evidence_sources"": [
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0462,Alliance Health Insurance,Covered with conditions,High,,
 synthetic_claim_0463,HDFC ERGO,Covered with conditions,High,,
-synthetic_claim_0464,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [],
-  ""evidence_sources"": [
-    ""HDFC Ergo General Insurance.pdf"",
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf"",
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0464,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Not covered,High,,
 synthetic_claim_0465,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Not covered,High,,
-synthetic_claim_0466,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Maximum liability for cataract treatment is subject to limits based on the sum insured.""
-  ],
-  ""evidence_sources"": [
-    ""ICICI Lombard.pdf"",
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf"",
-    ""Emedlife Parents Insurance Policy.pdf"",
-    ""Reliance Specially Abled Health Insurance.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
-synthetic_claim_0467,HDFC ERGO,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection.""
-  ],
-  ""evidence_sources"": [
-    ""HDFC Ergo General Insurance.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0468,Alliance Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [
-    ""Proposed procedure (Laparoscopic Cholecystectomy) is not related to the diagnosis (Fracture of Femur)""
-  ],
-  ""evidence_sources"": [
-    ""Family Shield Policy ICICI Lombard.pdf"",
-    ""HDFC Ergo General Insurance.pdf"",
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf"",
-    ""Corporate Advantage Super Top Up Policy ICICI.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0469,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [
-    ""Cataract Surgery is not covered under the Ayushman Mithra policy as it is not mentioned in the provided clauses.""
-  ],
-  ""evidence_sources"": [
-    ""HDFC Ergo General Insurance.pdf"",
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf"",
-    ""Reliance Specially Abled Health Insurance.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0466,Ayushman Mithra,Covered with conditions,Medium,,
+synthetic_claim_0467,HDFC ERGO,Covered with conditions,High,,
+synthetic_claim_0468,Alliance Health Insurance,Not covered,High,,
+synthetic_claim_0469,Ayushman Mithra,Not covered,High,,
 synthetic_claim_0470,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
-synthetic_claim_0471,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Waiting period of 90 days from Policy Start Date for claims"",
-    ""Sub-limit of Rs. 20,000 per eye for cataract treatment for plans with Sum Insured up to 5Lacs"",
-    ""Sub-limit of Rs. 1,00,000 per eye for cataract treatment for plans with Sum Insured above 5Lacs""
-  ],
-  ""evidence_sources"": [
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0472,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [],
-  ""evidence_sources"": [
-    ""Emedlife Parents Insurance Policy.pdf"",
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf"",
-    ""HDFC Ergo General Insurance.pdf"",
-    ""Reliance Specially Abled Health Insurance.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0473,SBI General Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Waiting period of 1 year for hospitalization expenses incurred on treatment of Hernia and Cataract.""
-  ],
-  ""evidence_sources"": [
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0474,A Plus Health Insurance,Covered with conditions,Medium,,
-synthetic_claim_0475,SBI General Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Claims must be submitted not later than one (1) month after the completion of the treatment.""
-  ],
-  ""evidence_sources"": [
-    ""Family Shield Policy ICICI Lombard.pdf"",
-    ""Saral Suraksha Bima Policy.pdf"",
-    ""ROYAL SUNDARAM Multiplier Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
-synthetic_claim_0476,HDFC ERGO,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection.""
-  ],
-  ""evidence_sources"": [
-    ""HDFC Ergo General Insurance.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0471,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
+synthetic_claim_0472,Ayushman Mithra,Not covered,High,,
+synthetic_claim_0473,SBI General Insurance,Covered with conditions,High,,
+synthetic_claim_0474,A Plus Health Insurance,Covered with conditions,High,,
+synthetic_claim_0475,SBI General Insurance,Covered with conditions,Medium,,
+synthetic_claim_0476,HDFC ERGO,Not covered,High,,
 synthetic_claim_0477,HDFC ERGO,Not covered,High,,
-synthetic_claim_0478,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection.""
-  ],
-  ""evidence_sources"": [
-    ""Saral Suraksha Bima Policy.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0479,ICICI Lombard,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [],
-  ""evidence_sources"": [
-    ""Arogya Sanjeevani Policy ICICI Lombard.pdf"",
-    ""Family Shield Policy ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0478,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Not covered,High,,
+synthetic_claim_0479,ICICI Lombard,Not covered,High,,
 synthetic_claim_0480,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,Medium,,
-synthetic_claim_0481,SBI General Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [
-    ""Cataract treatment is subject to a maximum liability of Rs. 20,000 per eye for plans with Sum Insured up to ₹5Lacs."",
-    ""Cataract treatment is excluded if it is a pre-existing condition within the first 24 months of coverage.""
-  ],
-  ""evidence_sources"": [
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0481,SBI General Insurance,Not covered,High,,
 synthetic_claim_0482,Ayushman Mithra,Covered with conditions,High,,
 synthetic_claim_0483,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
-synthetic_claim_0484,ICICI Lombard,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Not covered"",
-  ""conditions_or_exclusions"": [],
-  ""evidence_sources"": [
-    ""Family Shield Policy ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0485,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Waiting period of 1 year for hospitalization expenses incurred on treatment of Hernia.""
-  ],
-  ""evidence_sources"": [
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf"",
-    ""Saral Suraksha Bima Policy.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
-synthetic_claim_0486,Alliance Health Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Waiting period of 1 year for Hernia repair surgery as per Clause 4""
-  ],
-  ""evidence_sources"": [
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0484,ICICI Lombard,Not covered,High,,
+synthetic_claim_0485,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,Medium,,
+synthetic_claim_0486,Alliance Health Insurance,Covered with conditions,High,,
 synthetic_claim_0487,HDFC ERGO,Covered with conditions,High,,
 synthetic_claim_0488,HDFC ERGO,Not covered,High,,
-synthetic_claim_0489,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection.""
-  ],
-  ""evidence_sources"": [
-    ""Saral Suraksha Bima Policy.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
+synthetic_claim_0489,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
 synthetic_claim_0490,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
-synthetic_claim_0491,Ayushman Mithra,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Cataract treatment is subject to a sub-limit of Rs. 20,000 per eye for plans with Sum Insured up to ₹5Lacs or Rs. 1,00,000 per eye for plans with Sum Insured above ₹5Lacs.""
-  ],
-  ""evidence_sources"": [
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0492,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Waiting period of 1 year for cataract treatment""
-  ],
-  ""evidence_sources"": [
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""High""
-}
-```"
-synthetic_claim_0493,A Plus Health Insurance,Covered with conditions,Medium,,
+synthetic_claim_0491,Ayushman Mithra,Covered with conditions,High,,
+synthetic_claim_0492,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
+synthetic_claim_0493,A Plus Health Insurance,Covered with conditions,High,,
 synthetic_claim_0494,Ayushman Mithra,Covered with conditions,High,,
-synthetic_claim_0495,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Cataract surgery has a sub-limit of Rs.20,000/- per eye per policy year for plans with Sum Insured up to 5Lacs.""
-  ],
-  ""evidence_sources"": [
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf"",
-    ""ICICI Lombard.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
+synthetic_claim_0495,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,Medium,,
 synthetic_claim_0496,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
 synthetic_claim_0497,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
-synthetic_claim_0498,SBI General Insurance,ERROR,,ERR-JSON-01,"```json
-{
-  ""coverage_decision"": ""Covered with conditions"",
-  ""conditions_or_exclusions"": [
-    ""Claim may require additional review due to non-network hospital selection."",
-    ""Waiting period of 1 year for Hernia treatment as per Clause 4.""
-  ],
-  ""evidence_sources"": [
-    ""Saral Suraksha Bima Policy.pdf"",
-    ""UNIVERSAL SOMPO Individual Health Insurance Policy.pdf""
-  ],
-  ""confidence"": ""Medium""
-}
-```"
+synthetic_claim_0498,SBI General Insurance,Covered with conditions,High,,
 synthetic_claim_0499,Pradhan Mantri Suraksha Bhima YojanaSaral Suraksha Bima Yojana,Covered with conditions,High,,
 synthetic_claim_0500,HDFC ERGO,Not covered,High,,

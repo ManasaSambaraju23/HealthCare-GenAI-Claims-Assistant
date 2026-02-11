@@ -96,7 +96,8 @@ def run_reasoning(query):
     response = openai.chat.completions.create(
         model=LLM_MODEL,
         messages=[{"role": "user", "content": prompt}],
-        temperature=0.2
+        temperature=0.2,
+        response_format={"type": "json_object"}
     )
 
     return response.choices[0].message.content
